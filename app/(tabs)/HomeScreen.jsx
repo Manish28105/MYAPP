@@ -50,8 +50,8 @@ export default function HomeScreen() {
                     </Text>
 
                     <TouchableOpacity
-                        // onPress={() => setMenuVisible(prev => !prev)}
-                        onPress={() => setMenuVisible(false)}
+                        onPress={() => setMenuVisible(prev => !prev)}
+                        // onPress={() => setMenuVisible(false)}
                     >
                         <Text style={styles.headerTitle}>
                             ⋮
