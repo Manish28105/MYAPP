@@ -80,7 +80,9 @@ export default function HomeScreen() {
                                         width: 180,
                                     }}
                                 >
-                                    <TouchableOpacity>
+                                    <TouchableOpacity
+                                        onPress={() => router.push('/SettingsScreen')} 
+                                        >
                                         <Text
                                             style={{
                                                 padding: 10,

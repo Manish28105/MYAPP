@@ -9,8 +9,11 @@ export default function SectionScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        Section Page
+        Settings Page 
       </Text>
+      <Text style={styles.title}>
+        (This is demo page for navigation)
+        </Text>
     </View>
   );
 }
@@ -25,5 +28,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#eeeeee',
   },
 });
