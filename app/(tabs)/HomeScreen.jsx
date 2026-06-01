@@ -141,17 +141,17 @@ export default function HomeScreen() {
                 {/* Dashboard Cards */}
                 <TouchableOpacity style={styles.card}>
                     <Text style={styles.cardTitle}>
-                        card 1 (header section)
+                        Section 1 (header section)
                     </Text>
 
                     <Text style={styles.cardText}>
-                        brife intro of user or profession
+                        brief intro of user or profession
                     </Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.card}>
                     <Text style={styles.cardTitle}>
-                        card 2 (like a name or name of company or profession)
+                        Section 2 (like a name or name of company or profession)
                     </Text>
 
                     <Text style={styles.cardText}>
@@ -161,7 +161,7 @@ export default function HomeScreen() {
 
                 <TouchableOpacity style={styles.card}>
                     <Text style={styles.cardTitle}>
-                        card 3 (detail of user)
+                        Section 3 (detail of user)
                     </Text>
 
                     <Text style={styles.cardText}>
@@ -171,7 +171,7 @@ export default function HomeScreen() {
 
                 <TouchableOpacity style={styles.card}>
                     <Text style={styles.cardTitle}>
-                        card 4 (footer section)
+                        Section 4 (footer section)
                     </Text>
 
                     <Text style={styles.cardText}>
