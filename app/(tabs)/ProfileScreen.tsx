@@ -34,7 +34,7 @@ export default function ProfileScreen() {
       </Text>
 
       <Text style={styles.value}>
-        {user?.Username}
+        {user?.username}
       </Text>
 
       <Text style={styles.label}>
@@ -42,7 +42,7 @@ export default function ProfileScreen() {
       </Text>
 
       <Text style={styles.value}>
-        {user?.Email}
+        {user?.email}
       </Text>
 
       <Text style={styles.label}>
